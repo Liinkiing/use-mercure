@@ -17,13 +17,10 @@ With npm
 $ npm i @liinkiing/use-mercure
 ```
 
-## Documentation
-https://liinkiing.github.io/use-mercure/globals.html
-
 ## Example
 ```typescript jsx
-import React, { FunctionComponent, useState } from 'react';
-import { MercureProvider, useMercure } from '../.';
+import React, { useState } from 'react';
+import { MercureProvider, useMercure } from '@liinkiing/use-mercure';
 
 interface MessageFromMercure {
   readonly id: string;
@@ -32,7 +29,7 @@ interface MessageFromMercure {
 
 type Messages = readonly MessageFromMercure[];
 
-const App: React.FC = () => {
+const Example: React.FC = () => {
   const [messages, setMessages] = useState<Messages>([]);
 
   // By using TypeScript generics, you have type-safety for the
@@ -52,14 +49,14 @@ const App: React.FC = () => {
   );
 };
 
-const App: FunctionComponent = () => (
+const App: React.FC = () => (
   <MercureProvider
     options={{
       hubUrl: 'http://yourmercure.hub/.well-known/mercure',
       withCredentials: true /* default to false */,
     }}
   >
-    <App />
+    <Example />
   </MercureProvider>
 );
 ```
