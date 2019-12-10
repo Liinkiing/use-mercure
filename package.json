@@ -1,9 +1,9 @@
 {
   "name": "@liinkiing/use-mercure",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
-  "repository": "https://github.com/Liinkiing/use-socket",
-  "bugs": "https://github.com/Liinkiing/use-socket/issues",
+  "repository": "https://github.com/Liinkiing/use-mercure",
+  "bugs": "https://github.com/Liinkiing/use-mercure/issues",
   "author": "Omar Jbara <omar.jbara2@gmail.com>",
   "main": "dist/index.js",
   "module": "dist/use-mercure.esm.js",
@@ -19,6 +19,15 @@
     "docs": "typedoc --disableOutputCheck --tsconfig ./tsconfig.docs.json --out docs ./src",
     "commit-docs": "git add ./docs/*"
   },
+  "keywords": [
+    "lib",
+    "package",
+    "hook",
+    "react",
+    "mercure",
+    "event-source",
+    "event-stream"
+  ],
   "peerDependencies": {
     "react": ">=16.8"
   },

@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/npm/v/@liinkiing/use-mercure.svg)](https://npmjs.org/package/@liinkiing/use-mercure)
 [![Downloads/week](https://img.shields.io/npm/dw/@liinkiing/use-mercure.svg)](https://npmjs.org/package/@liinkiing/use-mercure)
-[![License](https://img.shields.io/npm/l/@liinkiing/use-mercure.svg)](https://github.com/Liinkiing/@liinkiing/use-mercure/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/@liinkiing/use-mercure.svg)](https://github.com/Liinkiing/use-mercure/blob/master/package.json)
 
 A hook to integrate  [Mercure](https://mercure.rocks/) EventSource in React.
 
