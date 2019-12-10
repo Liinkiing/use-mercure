@@ -17,13 +17,10 @@ With npm
 $ npm i @liinkiing/use-mercure
 ```
 
-## Documentation
-https://liinkiing.github.io/use-mercure/globals.html
-
 ## Example
 ```typescript jsx
 import React, { FunctionComponent, useState } from 'react';
-import { MercureProvider, useMercure } from '../.';
+import { MercureProvider, useMercure } from '@liinkiing/use-mercure';
 
 interface MessageFromMercure {
   readonly id: string;
