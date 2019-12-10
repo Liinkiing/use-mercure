@@ -1,0 +1,8 @@
+coverage
+src
+test
+.*
+*.log
+docs/
+tsconfig*.json
+tslint.json
